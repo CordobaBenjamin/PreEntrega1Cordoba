@@ -1,0 +1,193 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'DM Sans', sans-serif;
+    opacity: 100%;
+    z-index: 1;
+    background-color: #282828;
+    background-image: url(./background/backgroud.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    font-size: 10vh;
+    margin: 0%;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+p,
+address,
+::placeholder,
+input {
+    color: rgb(192, 192, 192);
+}
+
+main {
+    background-image: none;
+    background-color: #1c1b1b;
+    max-width: 1000px;
+    height: 600px;
+    margin: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    
+}
+
+main * {
+    background-image: none;
+    background-color: #1c1b1b;
+    
+}
+
+.flexDiv {
+    margin-bottom: 20px!important;
+}
+
+.modifyMargin {
+    margin-bottom: 20px;
+}
+
+.Codergaming  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.iconoPagar {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.iconoPagar > img {
+    transition: 1s;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.compraRealizada {
+    border-color: greenyellow;
+}
+
+.iconoPagar > img:hover {
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+.Precio_a_Pagar {
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 20px;
+    display: flex;    
+    flex-direction: row;
+}
+
+.form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+form {
+    margin-bottom: 0%!important;
+    padding-bottom: 0px!important;
+    position: relative;
+    left: 30px;
+    width: 800px;
+}
+
+.flexDiv {
+    margin-top: 50px;
+}
+
+#CreditInput {
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+form {
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    transition: 1s;
+    opacity: 40%;
+
+}
+
+.button-container:hover {
+    opacity: 100%;
+}
+
+#idForButtonToPay {
+    cursor: pointer;
+}
+
+.flexDivToPay {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+.flexDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.jokeh7 {
+   text-align: center;
+}
+
+.flexDivTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexDivTwo > section {
+    margin-right: 82px;
+}
+
+img {
+    width: 400px;
+    height: 220px;
+    position: relative;
+    top: 15px;
+}

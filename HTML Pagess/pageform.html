@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../Css And Src/lbreria.css">
+    <link rel="stylesheet" href="../Css And Src/pageform.css" />
+    <title>CoderPagos</title>
+</head>
+<body>
+    <header class="Codergaming">
+        <a href="../HTML Pagess/coderproduct.html">
+            <h1> CoderGaming </h1>
+        </a>
+        <h4>Tu pagina favorita de productos Gamers</h4>
+        <h4 id="margin">De los creadores de "CoderHouse"</h4>
+    </header>
+    <main>
+        <form id="form">
+            <div class="flexDiv">
+                <img src="../Css And Src/src productss/credit-card.png" alt="Credit Card">
+                <div id="modifyMargin">
+                    <section id="eMail">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" id="email" name="email">
+                    </section>
+                    <section id="cardNumber">
+                        <label for="numberCard">Numeros de la Tarjeta</label>
+                        <input id="numberCard" type="number" inputmode="numeric">
+                    </section>
+                </div>
+            </div>
+            <div class="flexDivTwo">
+                <section id="cardExpiry">
+                    <label for="expiryCard">Fecha de Vencimiento</label>
+                    <input id="expiryCard" placeholder="MM/YY" maxlength="5" required>
+                </section>
+                <section id="codeSecurity">
+                    <label for="securtyCode">Codigo de Seguridad</label>
+                    <input id="securtyCode" inputmode="numeric" maxlength="3" required>
+                </section>
+            </div>
+        </form>
+        <div class="iconoPagar button-container" id="flexDivToPay">
+            <input type="submit" id="idForButtonToPay" value="Confirmar Compra" onclick="compraRealizada()">
+        </div>
+        
+        <div class="Precio_a_Pagar" id="preciohtml">
+            <h4>El Precio a pagar es :</h4>
+            <h4 id="PriceToPay">$00</h4>
+        </div>
+        <div class="jokeh7">
+        <h7 > Todas las compras incluyen un chiste de regalo </h7>
+        </div>
+    </main>
+
+    <script src="../Scripts/PageForm.js"> </script>
+
+</body>
+</html>

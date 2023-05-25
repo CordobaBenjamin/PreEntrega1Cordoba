@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="../Css And Src/coderproduct.css" rel="stylesheet">
+
+    <title>CoderGaming</title>
+
+</head>
+
+<body>
+
+    <header class="Codergaming">
+        <a href="../index.html" style="cursor: pointer;">
+        <h1> CoderGaming </h1>
+        </a>
+        <h4> Tu pagina favorita de productos Gamers</h4>
+        <h4 id="margin"> De los creadores de "CoderHouse" </h4>
+
+    </header>
+    <main class="product">
+
+
+        <article>
+
+            <div id="product_div" style="height: auto; padding-top: 30px;"> </div>
+            <aside class="asideproduct">
+                <h2 class="h2aside">Total Del Precio</h2>
+                <div class="carritoproduct">
+                    <h7 id="pagarx"> Pagar </h7>
+                    <a href="../HTML Pagess/pageform.html" target="_blank" id="pageForPay">
+                        <img src="../Css And Src/src productss/carrito.png" alt="Carrito" class="carritoicon">
+                    </a>
+                    <h4 class="h4carrito" id="totalprice"> </h4>
+                    <div class="filterCategory">
+                        <div>
+                            <label for="keyboard">T</label>
+                            <input type="checkbox" id="keyboard" data-categoria="keyboards">
+                        </div>
+
+                        <div>
+                            <label for="wires">W</label>
+                            <input type="checkbox" id="wires" data-categoria="wires" onclick="filterfunction(event)">
+                        </div>
+
+                        <div>
+                            <label for="headphones">A</label>
+                            <input type="checkbox" id="headphones" data-categoria="headphones"
+                                onclick="filterfunction(event)">
+                        </div>
+
+                        <div>
+                            <label for="components" id="componentsLabel">C</label>
+                            <input type="checkbox" id="components" data-categoria="components"
+                                onclick="filterfunction(event)">
+                        </div>
+
+                        <div>
+                            <label for="games">J</label>
+                            <input type="checkbox" id="games" data-categoria="games"
+                                onclick="filterfunction(event)">
+                        </div>
+
+                        <div>
+                            <label for="mouse">M</label>
+                            <input type="checkbox" id="mouse" data-categoria="mouse" onclick="filterfunction(event)">
+                        </div>
+                    </div>
+                </div>
+                <section id="productoListDiv">
+                    <h3 class="productoh3">Productos Agregados</h3>
+                    <div id="productList">
+                    </div>
+                </section>
+            </aside>
+        </article>
+    </main>
+
+    <footer>
+        <ul>
+            <li> <a target="_blank"> Contactanos </a> </li>
+            <li> <a target="_blank"> Quienes Somos </a> </li>
+            <li> <a target="_blank"> Preguntas Frecuentes </a> </li>
+            <li> <a target="_blank"> Terminos de uso. </a> </li>
+        </ul>
+
+        <div class="address">
+            <address> © 2023 CoderGaming, todos los derechos reservados. </address>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../Scripts/DataBase_Products.js"></script>
+    <script src="../Scripts/ShoppingCart.js"></script>
+    <script src="../Scripts/PageForm.js"></script>
+    <script src="../Scripts/BuyItem().js"> </script>
+
+
+</body>
+
+</html>
