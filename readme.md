@@ -1,10 +1,10 @@
 # BENJAMIN CORDOBA
 
-Este proyecto consiste en una plataforma en línea llamada MarketGaming, que ofrece una variedad de productos relacionados con el mundo de los videojuegos. El proyecto consta de tres archivos HTML principales: `index.html`, `pageform.html` y `Marketproduct.html`. A continuación, se proporciona una descripción de cada archivo y su funcionalidad:
+Este proyecto consiste en una plataforma en línea llamada CoderGaming, que ofrece una variedad de productos relacionados con el mundo de los videojuegos. El proyecto consta de tres archivos HTML principales: `index.html`, `pageform.html` y `Marketproduct.html`. A continuación, se proporciona una descripción de cada archivo y su funcionalidad:
 
 ## Archivo index.html
 
-El archivo `index.html` es la página principal de MarketGaming. Proporciona una interfaz de usuario para navegar por las diferentes categorías de productos y realizar compras. Algunas características clave de esta página son:
+El archivo `index.html` es la página principal de CoderGaming. Proporciona una interfaz de usuario para navegar por las diferentes categorías de productos y realizar compras. Algunas características clave de esta página son:
 
 - Categorías de productos: Teclados, Mouse, Componentes, Cables, Auriculares y Juegos.
 - Enlaces a otras páginas: "Contactanos", "Quienes Somos", "Preguntas Frecuentes" y "Terminos de uso".
@@ -12,14 +12,14 @@ El archivo `index.html` es la página principal de MarketGaming. Proporciona una
 
 ## Archivo pageform.html
 
-El archivo `pageform.html` es la página de formulario de pago de MarketGaming. Permite a los usuarios completar la información necesaria para realizar una cumpra. Aquí se encuentran los siguientes elementos:
+El archivo `pageform.html` es la página de formulario de pago de CoderGaming. Permite a los usuarios completar la información necesaria para realizar una cumpra. Aquí se encuentran los siguientes elementos:
 
 - Campos de formulario: Correo Electrónico, Números de Tarjeta, Fecha de Vencimiento y Código de Seguridad.
 - Botón de Confirmar Compra: Al hacer clic en este botón, se realiza la compra.
 
-## Archivo Marketproduct.html
+## Archivo Coderproduct.html
 
-El archivo `Marketproduct.html` es la página de visualización de productos de MarketGaming. Muestra una lista de productos disponibles en diferentes categorías. Algunos aspectos destacados de esta página son:
+El archivo `Marketproduct.html` es la página de visualización de productos de CoderGaming. Muestra una lista de productos disponibles en diferentes categorías. Algunos aspectos destacados de esta página son:
 
 - Lista de productos: Teclados, Mouse, Componentes, Cables, Auriculares y Juegos.
 - Carrito de compras: Muestra los productos agregados y el total de precios.
@@ -37,4 +37,4 @@ Manipulación del carrito de compras: El código también incluye un evento oncl
 
 Funciones adicionales: El código incluye algunas funciones adicionales, como reiniciarPagina() para reiniciar la página, compraRealizada() para simular una compra y mostrar un chiste, y la obtención y actualización del precio total del carrito utilizando el localStorage.
 
-# Este proyecto fue desarrollado como parte de un ejercicio práctico y tiene fines educativos. MarketGaming y los productos mostrados son ficticios.
+# Este proyecto fue desarrollado como parte de un ejercicio práctico y tiene fines educativos. CoderGaming y los productos mostrados son ficticios.
